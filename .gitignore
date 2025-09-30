@@ -35,6 +35,6 @@
 **/.vscode/
 
 # Debugging Submodules
-src/ParaSiF_FEniCSx_Submodule
-src/ParaSiF_OpenFOAM_ESI_Submodule
+src/structure/ParaSiF_FEniCSx_Structure_Submodule
+src/fluid/ParaSiF_OpenFOAM_ESI_Fluid_Submodule
 
