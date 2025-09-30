@@ -37,4 +37,5 @@
 # Debugging Submodules
 src/structure/ParaSiF_FEniCSx_Structure_Submodule
 src/fluid/ParaSiF_OpenFOAM_ESI_Fluid_Submodule
+example/ParaSiF_OpenFOAM_FEniCSx_Example
 
