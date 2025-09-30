@@ -4,3 +4,6 @@
 [submodule "src/fluid/OpenFOAM_ESI"]
 	path = src/fluid/OpenFOAM_ESI
 	url = https://github.com/ParaSiF/ParaSiF_OpenFOAM_ESI_Fluid_Submodule.git
+[submodule "src/structure/FEniCSx"]
+	path = src/structure/FEniCSx
+	url = https://github.com/ParaSiF/ParaSiF_FEniCSx_Structure_Submodule.git
