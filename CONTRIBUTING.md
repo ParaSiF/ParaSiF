@@ -68,6 +68,26 @@ ParaSiF uses a **submodule-based architecture** to couple external solvers.
 - Contributions affecting a solver should be submitted to the **respective submodule repository**.
 - The top-level ParaSiF repository should only be changed for updating submodule references, global documentation, or maintaining repository structure.
 
+### Where should I put my new submodule? (`src/` or `third_party/`)
+
+The placement of a submodule depends on whether its code base is directly involved in ParaSiF development:
+
+- **`src/`**
+  Use this for solver submodules where the code base is not modified directly within ParaSiF.
+  - The submodule acts only as a dependency.
+  - Users can use precompiled versions of the solver.
+  - Recompilation of the solver code base is not required to use ParaSiF.
+
+- **`third_party/`**
+  Use this for external code bases that **must be modified and recompiled** as part of ParaSiF.
+  - The solver’s source code is directly involved in the ParaSiF workflow.
+  - Users must rebuild the modified solver to use ParaSiF.
+  - The modified code base will be uploaded and maintained within ParaSiF.
+
+In short:
+- **Dependency-only → `src/`**
+- **Modified & recompiled → `third_party/`**
+
 ---
 
 ## Good Practices
