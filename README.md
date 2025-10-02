@@ -47,18 +47,18 @@ Each submodule is maintained in its own repository within the [ParaSiF GitHub or
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
 ```bash
    git clone https://github.com/ParaSiF/ParaSiF.git
    cd ParaSiF
 ```
 
-2. Obtain the MUI coupling library
+2. **Obtain the MUI coupling library**:
 ```bash
    git submodule update --init coupling_lib/MUI/
 ```
 
-3. Select and initialise solvers
+3. **Select and initialise solvers**:
 
 &nbsp;&nbsp;&nbsp; Users can initialise only the solvers they need.
 
@@ -71,13 +71,13 @@ Each submodule is maintained in its own repository within the [ParaSiF GitHub or
 
 &nbsp;&nbsp;&nbsp; To skip other solvers you do not require, simply do not initialise their submodules.
 
-4. Build dependencies
+4. **Build dependencies**:
 
 - Install MUI (see instructions in coupling_lib/MUI/README.md).
 
 - Install the chosen solver(s) with MUI support (follow the installation guides in each submodule’s README).
 
-5. Test the installation
+5. **Test the installation**:
 
 &nbsp;&nbsp;&nbsp; Run the relevant unit or integrated tese cases provided in each submodule.
 
