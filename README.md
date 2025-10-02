@@ -18,6 +18,7 @@ The framework uses a partitioned approach to couple two or more program for runn
 
 ## Repository Structure
 
+```
 ParaSiF/
 │
 ├── coupling_lib/                       # coupling_lib folder
@@ -40,6 +41,7 @@ ParaSiF/
 │
 └── third_party/                        # third-party folder
   └── ...                               # (additional third-party submodule)
+```
 
 Each submodule is maintained in its own repository within the [ParaSiF GitHub organisation](https://github.com/ParaSiF), and contains its own README and installation instructions. Users can initialise only the solvers they are interested in.
 
