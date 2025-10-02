@@ -113,7 +113,7 @@ If you use ParaSiF, please cite the following works:
 
 ## License
 
-Copyright (C) 2021–2025 The ParaSiF Development Team.
+Copyright (C) 2021–2025 The ParaSiF Development Team.  
 Licensed under the **GNU General Public License v3 (GPL-3.0)**.
 
 ## Contact
