@@ -48,15 +48,15 @@ Each submodule is maintained in its own repository within the [ParaSiF GitHub or
 ## Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/ParaSiF/ParaSiF.git
    cd ParaSiF
-  ```
+```
 
 2. Obtain the MUI coupling library
-  ```bash
+```bash
    git submodule update --init coupling_lib/MUI/
-  ```
+```
 
 3. Select and initialise solvers
 
@@ -65,9 +65,9 @@ Users can initialise only the solvers they need.
   For example:
 
   To use OpenFOAM_ESI fluid solver:
-  ```bash
+```bash
    git submodule update --init src/fluid/OpenFOAM_ESI
-  ```
+```
 
 To skip other solvers you do not require, simply do not initialise their submodules.
 
