@@ -118,4 +118,4 @@ Licensed under the **GNU General Public License v3 (GPL-3.0)**.
 
 ## Contact
 
-For questions or contributions, please contact the developers via the ParaSiF GitHub organisation
+For questions or contributions, please contact the ParaSiF Development Team
