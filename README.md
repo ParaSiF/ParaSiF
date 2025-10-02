@@ -60,26 +60,26 @@ Each submodule is maintained in its own repository within the [ParaSiF GitHub or
 
 3. Select and initialise solvers
 
-Users can initialise only the solvers they need.
+> Users can initialise only the solvers they need.
 
-  For example:
+> > For example:
 
-  To use OpenFOAM_ESI fluid solver:
+> > To use OpenFOAM_ESI fluid solver:
 ```bash
    git submodule update --init src/fluid/OpenFOAM_ESI
 ```
 
-To skip other solvers you do not require, simply do not initialise their submodules.
+> To skip other solvers you do not require, simply do not initialise their submodules.
 
 4. Build dependencies
 
-Install MUI (see instructions in coupling_lib/MUI/README.md).
+- Install MUI (see instructions in coupling_lib/MUI/README.md).
 
-Install the chosen solver(s) with MUI support (follow the installation guides in each submodule’s README).
+- Install the chosen solver(s) with MUI support (follow the installation guides in each submodule’s README).
 
 5. Test the installation
 
-Run the relevant unit or integrated tese cases provided in each submodule.
+> Run the relevant unit or integrated tese cases provided in each submodule.
 
 ## Usage
 
