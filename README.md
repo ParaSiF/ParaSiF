@@ -14,7 +14,7 @@ The framework uses a partitioned approach to couple two or more program for runn
 - **"Plug-and-play" strategy** – replace one solver with another without recompilation if MUI interfaces are used.
 - **High scalability** – designed for supercomputing environments.
 
-**This framework is a beta software at the moment and under active development** to involve more solvers as well as more physics domains. Such infrastructure will make it possible to simulate large multi-physics problems and simulate complicated multi-physics cases by using supercomputing facilities.
+**This framework is a beta software at the moment and under active development**
 
 ## Repository Structure
 
