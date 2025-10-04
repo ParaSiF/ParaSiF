@@ -27,7 +27,7 @@ ParaSiF/
 ├── doc/                                # Documentation
 │
 ├── example/                            # example folder
-│ └── ParaSiF_OpenFOAM_FEniCSx_Example/ # Example case (submodule)
+│ └── OpenFOAM_FEniCSx/                 # Example case (submodule)
 │ └── ...                               # (additional Example case submodule)
 │
 ├── src/                                # src folder
