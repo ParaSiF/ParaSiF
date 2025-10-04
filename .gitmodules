@@ -7,3 +7,6 @@
 [submodule "src/structure/FEniCSx"]
 	path = src/structure/FEniCSx
 	url = https://github.com/ParaSiF/ParaSiF_FEniCSx_Structure_Submodule.git
+[submodule "example/OpenFOAM_FEniCSx"]
+	path = example/OpenFOAM_FEniCSx
+	url = https://github.com/ParaSiF/ParaSiF_OpenFOAM_FEniCSx_Example.git
