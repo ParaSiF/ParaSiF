@@ -40,3 +40,5 @@ src/fluid/ParaSiF_OpenFOAM_ESI_Fluid_Submodule
 example/ParaSiF_OpenFOAM_FEniCSx_Example
 third_party/OpenFOAM_ESI/
 
+# Develop Folder
+dev/
